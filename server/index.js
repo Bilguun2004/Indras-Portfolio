@@ -91,9 +91,9 @@ async function updateDataJs(req) {
   let dataFileContent = `
 const Data = {
   WebsiteTitle: "${data.WebsiteTitle || "Portfolio | Artists"}",
-  HeaderTitle: "${data.HeaderTitle || "Artist's Portfolio"}",
+  HeaderTitle: "${data.HeaderTitle || "Indra's Portfolio"}",
   FooterText: "${
-    data.FooterText || "© 2024 Artist's Portfolio. All rights reserved."
+    data.FooterText || "© 2024 Indra's Portfolio. All rights reserved."
   }",
   AboutEmail: "${data.AboutEmail || "Your Email Address"}",
   AboutEmailSubject: "${data.AboutEmailSubject || "Subject of the Email"}",
