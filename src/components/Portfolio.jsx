@@ -13,7 +13,7 @@ function Portfolio() {
   return (
     <div className={PortfolioCSS.gridContainer}>
       {images.map((src, index) => (
-        <ImageWrapper key={index} src={src} index={index} />
+        <ImageWrapper key={index} src={"https://indra69.s3.eu-north-1.amazonaws.com/wp9293972.jpg"} index={index} />
       ))}
     </div>
   );
